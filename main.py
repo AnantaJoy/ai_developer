@@ -15,7 +15,7 @@ openai.api_key = api_key
 # create a request to complete the answer
 response = openai.Completion.create(
     model='text-davinci-003',
-    prompt='Who id the Prime Minister of Bangladesh?'
+    prompt='Who is the Prime Minister of Bangladesh?'
 )
 
 print(response)
